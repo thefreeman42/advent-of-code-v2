@@ -6,7 +6,8 @@ internal class P1Trebuchet : IPuzzle
 {
     private string[] _input = null!;
 
-    public void Initialize(string[] input) => _input = input;
+    public void Initialize(string[] input)
+        => _input = input.Where(line => !string.IsNullOrWhiteSpace(line)).ToArray();
 
     public PuzzleResult SolvePartOne()
     {

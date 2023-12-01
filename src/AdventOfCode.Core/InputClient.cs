@@ -27,7 +27,7 @@ public class InputClient : IInputProvider
         {
             _client.DefaultRequestHeaders.Add("Cookie", $"session={_sessionKey}");
             var response = await _client.GetStringAsync(endpoint, cancellationToken);
-            return response.Split('\n').Where(line => !string.IsNullOrWhiteSpace(line)).ToArray();
+            return response.Split('\n');
         }
         catch
         {
