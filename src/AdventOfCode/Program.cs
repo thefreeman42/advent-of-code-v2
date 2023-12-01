@@ -8,7 +8,7 @@ using Serilog;
 
 var builder = Host.CreateApplicationBuilder(args);
 
-builder.Configuration.AddJsonFile("appsetting.Local.json");
+builder.Configuration.AddJsonFile("appsettings.Local.json");
 builder.Logging.AddSerilog().AddConsole();
 
 builder.Services.AddOptions<InputSettings>()
