@@ -1,4 +1,5 @@
-﻿using AdventOfCode._2023;
+﻿using AdventOfCode._2022;
+using AdventOfCode._2023;
 using AdventOfCode.Core;
 
 namespace AdventOfCode;
@@ -13,6 +14,9 @@ public class PuzzleFactory : IPuzzleFactory
     public IPuzzle GetPuzzle(int year, int day)
         => (year, day) switch
         {
+            (2022, 1) => new P1CalorieCounting(),
+            (2022, 2) => new P2RockPaperScissors(),
+            (2022, 3) => new P3RucksackReorganization(),
             (2023, 1) => new P1Trebuchet(),
             _ => throw new ArgumentException($"No puzzle configured for year {year} and day {day}.")
         };
