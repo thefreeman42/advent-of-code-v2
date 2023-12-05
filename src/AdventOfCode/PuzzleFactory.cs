@@ -21,6 +21,7 @@ public class PuzzleFactory : IPuzzleFactory
             (2023, 2) => new P2CubeConundrum(),
             (2023, 3) => new P3GearRatios(),
             (2023, 4) => new P4Scratchcards(),
+            (2023, 5) => new P5IfYouGiveASeedAFertilizer(),
             _ => throw new ArgumentException($"No puzzle configured for year {year} and day {day}.")
         };
 }
