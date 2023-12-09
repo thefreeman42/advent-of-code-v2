@@ -25,6 +25,7 @@ public class PuzzleFactory : IPuzzleFactory
             (2023, 6) => new P6WaitForIt(),
             (2023, 7) => new P7CamelCards(),
             (2023, 8) => new P8HauntedWasteland(),
+            (2023, 9) => new P9MirageMaintenance(),
             _ => throw new ArgumentException($"No puzzle configured for year {year} and day {day}.")
         };
 }
