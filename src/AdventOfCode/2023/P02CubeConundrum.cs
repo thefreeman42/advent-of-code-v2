@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode._2023;
-public class P2CubeConundrum : IPuzzle
+public class P02CubeConundrum : IPuzzle
 {
     private Game[] _input = null!;
 

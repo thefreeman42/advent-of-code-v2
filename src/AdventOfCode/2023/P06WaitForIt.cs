@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2023;
-public class P6WaitForIt : IPuzzle
+public class P06WaitForIt : IPuzzle
 {
     private Race[] _races = null!;
     private Race _bigRace = null!;

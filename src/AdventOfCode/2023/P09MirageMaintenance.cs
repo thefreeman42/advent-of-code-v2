@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2023;
-public class P9MirageMaintenance : IPuzzle
+public class P09MirageMaintenance : IPuzzle
 {
     long[][] _input = null!;
 

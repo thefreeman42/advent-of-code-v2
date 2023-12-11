@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode._2023;
-public class P3GearRatios : IPuzzle
+public class P03GearRatios : IPuzzle
 {
     private Coordinate[][] _schematic = null!;
 

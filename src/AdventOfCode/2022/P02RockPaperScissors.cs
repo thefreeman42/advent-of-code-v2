@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2022;
-public class P2RockPaperScissors : IPuzzle
+public class P02RockPaperScissors : IPuzzle
 {
     private StrategyRow[] _input = null;
 

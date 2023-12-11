@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2023;
-public class P4Scratchcards : IPuzzle
+public class P04Scratchcards : IPuzzle
 {
     private Scratchcard[] _cards;
 

@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode._2023;
-internal class P1Trebuchet : IPuzzle
+internal class P01Trebuchet : IPuzzle
 {
     private string[] _input = null!;
 

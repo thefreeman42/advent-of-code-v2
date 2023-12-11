@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode._2023;
-public class P5IfYouGiveASeedAFertilizer : IPuzzle
+public class P05IfYouGiveASeedAFertilizer : IPuzzle
 {
     private string[] _seedValues = [];
     private readonly Dictionary<string, List<Map>> _maps = [];

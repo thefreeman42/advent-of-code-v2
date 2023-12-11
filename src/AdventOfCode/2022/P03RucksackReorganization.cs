@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2022;
-public class P3RucksackReorganization : IPuzzle
+public class P03RucksackReorganization : IPuzzle
 {
     private Rucksack[] _input = null!;
 

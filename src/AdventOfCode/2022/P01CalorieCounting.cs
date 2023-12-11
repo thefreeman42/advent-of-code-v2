@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2022;
-public class P1CalorieCounting : IPuzzle
+public class P01CalorieCounting : IPuzzle
 {
     private string[] _input = null!;
 

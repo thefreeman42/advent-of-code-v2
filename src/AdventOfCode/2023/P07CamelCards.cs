@@ -1,7 +1,7 @@
 ﻿using AdventOfCode.Core;
 
 namespace AdventOfCode._2023;
-public class P7CamelCards : IPuzzle
+public class P07CamelCards : IPuzzle
 {
     private Hand[] _hands = null!;
 

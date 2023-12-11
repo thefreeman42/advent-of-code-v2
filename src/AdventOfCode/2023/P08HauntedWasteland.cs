@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode._2023;
-public class P8HauntedWasteland : IPuzzle
+public class P08HauntedWasteland : IPuzzle
 {
     private char[] _directions = null!;
     private Node[] _nodes = null!;
